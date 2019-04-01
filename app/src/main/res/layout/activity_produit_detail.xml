@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context="com.example.sameh.mymg.ProduitDetail">
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/lib"
+            android:textSize="40dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/prix"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="159dp"
+        android:layout_gravity="center"
+        android:id="@+id/img"
+        android:layout_margin="15dp"
+
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_margin="10dp"
+        android:background="#b9a9a9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gar"
+        android:text="Garantie"
+
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/des"
+        android:textSize="30dp"
+        android:text="Description"
+
+        />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_gravity="center"
+        android:textColor="#597da6"
+        android:drawableLeft="@drawable/ic_share_black_24dp"
+        />
+</LinearLayout>
